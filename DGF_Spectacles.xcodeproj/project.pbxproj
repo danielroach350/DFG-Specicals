@@ -9,11 +9,75 @@
 /* Begin PBXBuildFile section */
 		0DD914121A16CB1D0071DE85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD914111A16CB1D0071DE85 /* main.m */; };
 		0DD914151A16CB1D0071DE85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD914141A16CB1D0071DE85 /* AppDelegate.m */; };
-		0DD914181A16CB1D0071DE85 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD914171A16CB1D0071DE85 /* ViewController.m */; };
 		0DD9141B1A16CB1D0071DE85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DD914191A16CB1D0071DE85 /* Main.storyboard */; };
 		0DD9141D1A16CB1D0071DE85 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DD9141C1A16CB1D0071DE85 /* Images.xcassets */; };
 		0DD914201A16CB1D0071DE85 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DD9141E1A16CB1D0071DE85 /* LaunchScreen.xib */; };
 		0DD9142C1A16CB1D0071DE85 /* DGF_SpectaclesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD9142B1A16CB1D0071DE85 /* DGF_SpectaclesTests.m */; };
+		0DD914441A16D1AB0071DE85 /* RegulationsTVController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD914431A16D1AB0071DE85 /* RegulationsTVController.m */; };
+		0DD914471A16D1C70071DE85 /* ZonesTVController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD914461A16D1C70071DE85 /* ZonesTVController.m */; };
+		0DD9144A1A16D2000071DE85 /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD914491A16D2000071DE85 /* LocationViewController.m */; };
+		0DD914BD1A16D3A50071DE85 /* DeerZoneList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0DD914BC1A16D3A50071DE85 /* DeerZoneList.plist */; };
+		0DD914C11A16D44A0071DE85 /* ZoneMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD914C01A16D44A0071DE85 /* ZoneMapViewController.m */; };
+		0DF931951A16ED4E007E39DC /* deermap_a_north.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF9315D1A16ED4E007E39DC /* deermap_a_north.pdf */; };
+		0DF931961A16ED4E007E39DC /* deermap_a_south.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF9315E1A16ED4E007E39DC /* deermap_a_south.pdf */; };
+		0DF931971A16ED4E007E39DC /* deermap_a0.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF9315F1A16ED4E007E39DC /* deermap_a0.pdf */; };
+		0DF931981A16ED4E007E39DC /* deermap_a1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF931601A16ED4E007E39DC /* deermap_a1.pdf */; };
+		0DF931991A16ED4E007E39DC /* deermap_a2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF931611A16ED4E007E39DC /* deermap_a2.pdf */; };
+		0DF9319A1A16ED4E007E39DC /* deermap_a26.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF931621A16ED4E007E39DC /* deermap_a26.pdf */; };
+		0DF9319B1A16ED4E007E39DC /* deermap_a27.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF931631A16ED4E007E39DC /* deermap_a27.pdf */; };
+		0DF9319C1A16ED4E007E39DC /* deermap_a31.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF931641A16ED4E007E39DC /* deermap_a31.pdf */; };
+		0DF9319D1A16ED4E007E39DC /* deermap_a32.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF931651A16ED4E007E39DC /* deermap_a32.pdf */; };
+		0DF9319E1A16ED4E007E39DC /* deermap_a33.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF931661A16ED4E007E39DC /* deermap_a33.pdf */; };
+		0DF9319F1A16ED4E007E39DC /* deermap_arch3_300.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF931671A16ED4E007E39DC /* deermap_arch3_300.pdf */; };
+		0DF931A01A16ED4E007E39DC /* deermap_arch4_300.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF931681A16ED4E007E39DC /* deermap_arch4_300.pdf */; };
+		0DF931A11A16ED4E007E39DC /* deermap_arch5_300.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF931691A16ED4E007E39DC /* deermap_arch5_300.pdf */; };
+		0DF931A21A16ED4E007E39DC /* deermap_arch6_300.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF9316A1A16ED4E007E39DC /* deermap_arch6_300.pdf */; };
+		0DF931A31A16ED4E007E39DC /* deermap_arch7_300.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF9316B1A16ED4E007E39DC /* deermap_arch7_300.pdf */; };
+		0DF931A41A16ED4E007E39DC /* deermap_arch8_300.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF9316C1A16ED4E007E39DC /* deermap_arch8_300.pdf */; };
+		0DF931A51A16ED4E007E39DC /* deermap_arch9_300.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF9316D1A16ED4E007E39DC /* deermap_arch9_300.pdf */; };
+		0DF931A61A16ED4E007E39DC /* deermap_arch11_300.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF9316E1A16ED4E007E39DC /* deermap_arch11_300.pdf */; };
+		0DF931A71A16ED4E007E39DC /* deermap_arch12_300.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF9316F1A16ED4E007E39DC /* deermap_arch12_300.pdf */; };
+		0DF931A81A16ED4E007E39DC /* deermap_arch13_300.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF931701A16ED4E007E39DC /* deermap_arch13_300.pdf */; };
+		0DF931A91A16ED4E007E39DC /* deermap_arch16_300.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF931711A16ED4E007E39DC /* deermap_arch16_300.pdf */; };
+		0DF931AA1A16ED4E007E39DC /* deermap_arch17_300.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF931721A16ED4E007E39DC /* deermap_arch17_300.pdf */; };
+		0DF931AB1A16ED4E007E39DC /* deermap_arch18_300.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF931731A16ED4E007E39DC /* deermap_arch18_300.pdf */; };
+		0DF931AC1A16ED4E007E39DC /* deermap_arch19_300.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF931741A16ED4E007E39DC /* deermap_arch19_300.pdf */; };
+		0DF931AD1A16ED4E007E39DC /* deermap_arch20_300.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF931751A16ED4E007E39DC /* deermap_arch20_300.pdf */; };
+		0DF931AE1A16ED4E007E39DC /* deermap_arch21_300.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF931761A16ED4E007E39DC /* deermap_arch21_300.pdf */; };
+		0DF931AF1A16ED4E007E39DC /* deermap_arch22_300.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF931771A16ED4E007E39DC /* deermap_arch22_300.pdf */; };
+		0DF931B01A16ED4E007E39DC /* deermap_arch24_300.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF931781A16ED4E007E39DC /* deermap_arch24_300.pdf */; };
+		0DF931B11A16ED4E007E39DC /* deermap_arch30_300.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF931791A16ED4E007E39DC /* deermap_arch30_300.pdf */; };
+		0DF931B21A16ED4E007E39DC /* deermap_b1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF9317A1A16ED4E007E39DC /* deermap_b1.pdf */; };
+		0DF931B31A16ED4E007E39DC /* deermap_b2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF9317B1A16ED4E007E39DC /* deermap_b2.pdf */; };
+		0DF931B41A16ED4E007E39DC /* deermap_b3.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF9317C1A16ED4E007E39DC /* deermap_b3.pdf */; };
+		0DF931B51A16ED4E007E39DC /* deermap_b4.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF9317D1A16ED4E007E39DC /* deermap_b4.pdf */; };
+		0DF931B61A16ED4E007E39DC /* deermap_b5.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF9317E1A16ED4E007E39DC /* deermap_b5.pdf */; };
+		0DF931B71A16ED4E007E39DC /* deermap_b6.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF9317F1A16ED4E007E39DC /* deermap_b6.pdf */; };
+		0DF931B81A16ED4E007E39DC /* deermap_c1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF931801A16ED4E007E39DC /* deermap_c1.pdf */; };
+		0DF931B91A16ED4E007E39DC /* deermap_c2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF931811A16ED4E007E39DC /* deermap_c2.pdf */; };
+		0DF931BA1A16ED4E007E39DC /* deermap_c3.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF931821A16ED4E007E39DC /* deermap_c3.pdf */; };
+		0DF931BB1A16ED4E007E39DC /* deermap_c4.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF931831A16ED4E007E39DC /* deermap_c4.pdf */; };
+		0DF931BC1A16ED4E007E39DC /* deermap_x1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF931841A16ED4E007E39DC /* deermap_x1.pdf */; };
+		0DF931BD1A16ED4E007E39DC /* deermap_x2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF931851A16ED4E007E39DC /* deermap_x2.pdf */; };
+		0DF931BE1A16ED4E007E39DC /* deermap_x3a.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF931861A16ED4E007E39DC /* deermap_x3a.pdf */; };
+		0DF931BF1A16ED4E007E39DC /* deermap_x3b.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF931871A16ED4E007E39DC /* deermap_x3b.pdf */; };
+		0DF931C01A16ED4E007E39DC /* deermap_x4.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF931881A16ED4E007E39DC /* deermap_x4.pdf */; };
+		0DF931C11A16ED4E007E39DC /* deermap_x5a.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF931891A16ED4E007E39DC /* deermap_x5a.pdf */; };
+		0DF931C21A16ED4E007E39DC /* deermap_x5b.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF9318A1A16ED4E007E39DC /* deermap_x5b.pdf */; };
+		0DF931C31A16ED4E007E39DC /* deermap_x6a.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF9318B1A16ED4E007E39DC /* deermap_x6a.pdf */; };
+		0DF931C41A16ED4E007E39DC /* deermap_x6b.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF9318C1A16ED4E007E39DC /* deermap_x6b.pdf */; };
+		0DF931C51A16ED4E007E39DC /* deermap_x7a.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF9318D1A16ED4E007E39DC /* deermap_x7a.pdf */; };
+		0DF931C61A16ED4E007E39DC /* deermap_x7b.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF9318E1A16ED4E007E39DC /* deermap_x7b.pdf */; };
+		0DF931C71A16ED4E007E39DC /* deermap_x8.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF9318F1A16ED4E007E39DC /* deermap_x8.pdf */; };
+		0DF931C81A16ED4E007E39DC /* deermap_x9a.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF931901A16ED4E007E39DC /* deermap_x9a.pdf */; };
+		0DF931C91A16ED4E007E39DC /* deermap_x9b.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF931911A16ED4E007E39DC /* deermap_x9b.pdf */; };
+		0DF931CA1A16ED4E007E39DC /* deermap_x9c.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF931921A16ED4E007E39DC /* deermap_x9c.pdf */; };
+		0DF931CB1A16ED4E007E39DC /* deermap_x10.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF931931A16ED4E007E39DC /* deermap_x10.pdf */; };
+		0DF931CC1A16ED4E007E39DC /* deermap_x12.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF931941A16ED4E007E39DC /* deermap_x12.pdf */; };
+		0DF931CF1A16F671007E39DC /* RegulationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF931CE1A16F671007E39DC /* RegulationViewController.m */; };
+		0DF931D31A1F081F007E39DC /* KMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF931D21A1F081F007E39DC /* KMLParser.m */; };
+		0DF931D51A1F0C10007E39DC /* DeerZone52008.kml in Resources */ = {isa = PBXBuildFile; fileRef = 0DF931D41A1F0C10007E39DC /* DeerZone52008.kml */; };
+		0DF931D81A1F0D72007E39DC /* Spectacles.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF931D71A1F0D72007E39DC /* Spectacles.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +96,84 @@
 		0DD914111A16CB1D0071DE85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0DD914131A16CB1D0071DE85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0DD914141A16CB1D0071DE85 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0DD914161A16CB1D0071DE85 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0DD914171A16CB1D0071DE85 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0DD9141A1A16CB1D0071DE85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0DD9141C1A16CB1D0071DE85 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0DD9141F1A16CB1D0071DE85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		0DD914251A16CB1D0071DE85 /* DGF_SpectaclesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DGF_SpectaclesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DD9142A1A16CB1D0071DE85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0DD9142B1A16CB1D0071DE85 /* DGF_SpectaclesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DGF_SpectaclesTests.m; sourceTree = "<group>"; };
+		0DD914421A16D1AB0071DE85 /* RegulationsTVController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegulationsTVController.h; path = Controllers/RegulationsTVController.h; sourceTree = "<group>"; };
+		0DD914431A16D1AB0071DE85 /* RegulationsTVController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegulationsTVController.m; path = Controllers/RegulationsTVController.m; sourceTree = "<group>"; };
+		0DD914451A16D1C70071DE85 /* ZonesTVController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZonesTVController.h; path = Controllers/ZonesTVController.h; sourceTree = "<group>"; };
+		0DD914461A16D1C70071DE85 /* ZonesTVController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZonesTVController.m; path = Controllers/ZonesTVController.m; sourceTree = "<group>"; };
+		0DD914481A16D2000071DE85 /* LocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocationViewController.h; path = Controllers/LocationViewController.h; sourceTree = "<group>"; };
+		0DD914491A16D2000071DE85 /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocationViewController.m; path = Controllers/LocationViewController.m; sourceTree = "<group>"; };
+		0DD914BC1A16D3A50071DE85 /* DeerZoneList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DeerZoneList.plist; sourceTree = "<group>"; };
+		0DD914BF1A16D44A0071DE85 /* ZoneMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZoneMapViewController.h; path = Controllers/Views/ZoneMapViewController.h; sourceTree = "<group>"; };
+		0DD914C01A16D44A0071DE85 /* ZoneMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZoneMapViewController.m; path = Controllers/Views/ZoneMapViewController.m; sourceTree = "<group>"; };
+		0DF9315D1A16ED4E007E39DC /* deermap_a_north.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_a_north.pdf; path = Zone_Resource/deermap_a_north.pdf; sourceTree = "<group>"; };
+		0DF9315E1A16ED4E007E39DC /* deermap_a_south.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_a_south.pdf; path = Zone_Resource/deermap_a_south.pdf; sourceTree = "<group>"; };
+		0DF9315F1A16ED4E007E39DC /* deermap_a0.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_a0.pdf; path = Zone_Resource/deermap_a0.pdf; sourceTree = "<group>"; };
+		0DF931601A16ED4E007E39DC /* deermap_a1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_a1.pdf; path = Zone_Resource/deermap_a1.pdf; sourceTree = "<group>"; };
+		0DF931611A16ED4E007E39DC /* deermap_a2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_a2.pdf; path = Zone_Resource/deermap_a2.pdf; sourceTree = "<group>"; };
+		0DF931621A16ED4E007E39DC /* deermap_a26.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_a26.pdf; path = Zone_Resource/deermap_a26.pdf; sourceTree = "<group>"; };
+		0DF931631A16ED4E007E39DC /* deermap_a27.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_a27.pdf; path = Zone_Resource/deermap_a27.pdf; sourceTree = "<group>"; };
+		0DF931641A16ED4E007E39DC /* deermap_a31.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_a31.pdf; path = Zone_Resource/deermap_a31.pdf; sourceTree = "<group>"; };
+		0DF931651A16ED4E007E39DC /* deermap_a32.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_a32.pdf; path = Zone_Resource/deermap_a32.pdf; sourceTree = "<group>"; };
+		0DF931661A16ED4E007E39DC /* deermap_a33.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_a33.pdf; path = Zone_Resource/deermap_a33.pdf; sourceTree = "<group>"; };
+		0DF931671A16ED4E007E39DC /* deermap_arch3_300.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_arch3_300.pdf; path = Zone_Resource/deermap_arch3_300.pdf; sourceTree = "<group>"; };
+		0DF931681A16ED4E007E39DC /* deermap_arch4_300.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_arch4_300.pdf; path = Zone_Resource/deermap_arch4_300.pdf; sourceTree = "<group>"; };
+		0DF931691A16ED4E007E39DC /* deermap_arch5_300.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_arch5_300.pdf; path = Zone_Resource/deermap_arch5_300.pdf; sourceTree = "<group>"; };
+		0DF9316A1A16ED4E007E39DC /* deermap_arch6_300.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_arch6_300.pdf; path = Zone_Resource/deermap_arch6_300.pdf; sourceTree = "<group>"; };
+		0DF9316B1A16ED4E007E39DC /* deermap_arch7_300.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_arch7_300.pdf; path = Zone_Resource/deermap_arch7_300.pdf; sourceTree = "<group>"; };
+		0DF9316C1A16ED4E007E39DC /* deermap_arch8_300.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_arch8_300.pdf; path = Zone_Resource/deermap_arch8_300.pdf; sourceTree = "<group>"; };
+		0DF9316D1A16ED4E007E39DC /* deermap_arch9_300.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_arch9_300.pdf; path = Zone_Resource/deermap_arch9_300.pdf; sourceTree = "<group>"; };
+		0DF9316E1A16ED4E007E39DC /* deermap_arch11_300.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_arch11_300.pdf; path = Zone_Resource/deermap_arch11_300.pdf; sourceTree = "<group>"; };
+		0DF9316F1A16ED4E007E39DC /* deermap_arch12_300.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_arch12_300.pdf; path = Zone_Resource/deermap_arch12_300.pdf; sourceTree = "<group>"; };
+		0DF931701A16ED4E007E39DC /* deermap_arch13_300.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_arch13_300.pdf; path = Zone_Resource/deermap_arch13_300.pdf; sourceTree = "<group>"; };
+		0DF931711A16ED4E007E39DC /* deermap_arch16_300.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_arch16_300.pdf; path = Zone_Resource/deermap_arch16_300.pdf; sourceTree = "<group>"; };
+		0DF931721A16ED4E007E39DC /* deermap_arch17_300.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_arch17_300.pdf; path = Zone_Resource/deermap_arch17_300.pdf; sourceTree = "<group>"; };
+		0DF931731A16ED4E007E39DC /* deermap_arch18_300.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_arch18_300.pdf; path = Zone_Resource/deermap_arch18_300.pdf; sourceTree = "<group>"; };
+		0DF931741A16ED4E007E39DC /* deermap_arch19_300.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_arch19_300.pdf; path = Zone_Resource/deermap_arch19_300.pdf; sourceTree = "<group>"; };
+		0DF931751A16ED4E007E39DC /* deermap_arch20_300.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_arch20_300.pdf; path = Zone_Resource/deermap_arch20_300.pdf; sourceTree = "<group>"; };
+		0DF931761A16ED4E007E39DC /* deermap_arch21_300.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_arch21_300.pdf; path = Zone_Resource/deermap_arch21_300.pdf; sourceTree = "<group>"; };
+		0DF931771A16ED4E007E39DC /* deermap_arch22_300.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_arch22_300.pdf; path = Zone_Resource/deermap_arch22_300.pdf; sourceTree = "<group>"; };
+		0DF931781A16ED4E007E39DC /* deermap_arch24_300.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_arch24_300.pdf; path = Zone_Resource/deermap_arch24_300.pdf; sourceTree = "<group>"; };
+		0DF931791A16ED4E007E39DC /* deermap_arch30_300.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_arch30_300.pdf; path = Zone_Resource/deermap_arch30_300.pdf; sourceTree = "<group>"; };
+		0DF9317A1A16ED4E007E39DC /* deermap_b1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_b1.pdf; path = Zone_Resource/deermap_b1.pdf; sourceTree = "<group>"; };
+		0DF9317B1A16ED4E007E39DC /* deermap_b2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_b2.pdf; path = Zone_Resource/deermap_b2.pdf; sourceTree = "<group>"; };
+		0DF9317C1A16ED4E007E39DC /* deermap_b3.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_b3.pdf; path = Zone_Resource/deermap_b3.pdf; sourceTree = "<group>"; };
+		0DF9317D1A16ED4E007E39DC /* deermap_b4.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_b4.pdf; path = Zone_Resource/deermap_b4.pdf; sourceTree = "<group>"; };
+		0DF9317E1A16ED4E007E39DC /* deermap_b5.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_b5.pdf; path = Zone_Resource/deermap_b5.pdf; sourceTree = "<group>"; };
+		0DF9317F1A16ED4E007E39DC /* deermap_b6.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_b6.pdf; path = Zone_Resource/deermap_b6.pdf; sourceTree = "<group>"; };
+		0DF931801A16ED4E007E39DC /* deermap_c1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_c1.pdf; path = Zone_Resource/deermap_c1.pdf; sourceTree = "<group>"; };
+		0DF931811A16ED4E007E39DC /* deermap_c2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_c2.pdf; path = Zone_Resource/deermap_c2.pdf; sourceTree = "<group>"; };
+		0DF931821A16ED4E007E39DC /* deermap_c3.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_c3.pdf; path = Zone_Resource/deermap_c3.pdf; sourceTree = "<group>"; };
+		0DF931831A16ED4E007E39DC /* deermap_c4.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_c4.pdf; path = Zone_Resource/deermap_c4.pdf; sourceTree = "<group>"; };
+		0DF931841A16ED4E007E39DC /* deermap_x1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_x1.pdf; path = Zone_Resource/deermap_x1.pdf; sourceTree = "<group>"; };
+		0DF931851A16ED4E007E39DC /* deermap_x2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_x2.pdf; path = Zone_Resource/deermap_x2.pdf; sourceTree = "<group>"; };
+		0DF931861A16ED4E007E39DC /* deermap_x3a.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_x3a.pdf; path = Zone_Resource/deermap_x3a.pdf; sourceTree = "<group>"; };
+		0DF931871A16ED4E007E39DC /* deermap_x3b.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_x3b.pdf; path = Zone_Resource/deermap_x3b.pdf; sourceTree = "<group>"; };
+		0DF931881A16ED4E007E39DC /* deermap_x4.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_x4.pdf; path = Zone_Resource/deermap_x4.pdf; sourceTree = "<group>"; };
+		0DF931891A16ED4E007E39DC /* deermap_x5a.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_x5a.pdf; path = Zone_Resource/deermap_x5a.pdf; sourceTree = "<group>"; };
+		0DF9318A1A16ED4E007E39DC /* deermap_x5b.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_x5b.pdf; path = Zone_Resource/deermap_x5b.pdf; sourceTree = "<group>"; };
+		0DF9318B1A16ED4E007E39DC /* deermap_x6a.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_x6a.pdf; path = Zone_Resource/deermap_x6a.pdf; sourceTree = "<group>"; };
+		0DF9318C1A16ED4E007E39DC /* deermap_x6b.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_x6b.pdf; path = Zone_Resource/deermap_x6b.pdf; sourceTree = "<group>"; };
+		0DF9318D1A16ED4E007E39DC /* deermap_x7a.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_x7a.pdf; path = Zone_Resource/deermap_x7a.pdf; sourceTree = "<group>"; };
+		0DF9318E1A16ED4E007E39DC /* deermap_x7b.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_x7b.pdf; path = Zone_Resource/deermap_x7b.pdf; sourceTree = "<group>"; };
+		0DF9318F1A16ED4E007E39DC /* deermap_x8.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_x8.pdf; path = Zone_Resource/deermap_x8.pdf; sourceTree = "<group>"; };
+		0DF931901A16ED4E007E39DC /* deermap_x9a.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_x9a.pdf; path = Zone_Resource/deermap_x9a.pdf; sourceTree = "<group>"; };
+		0DF931911A16ED4E007E39DC /* deermap_x9b.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_x9b.pdf; path = Zone_Resource/deermap_x9b.pdf; sourceTree = "<group>"; };
+		0DF931921A16ED4E007E39DC /* deermap_x9c.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_x9c.pdf; path = Zone_Resource/deermap_x9c.pdf; sourceTree = "<group>"; };
+		0DF931931A16ED4E007E39DC /* deermap_x10.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_x10.pdf; path = Zone_Resource/deermap_x10.pdf; sourceTree = "<group>"; };
+		0DF931941A16ED4E007E39DC /* deermap_x12.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deermap_x12.pdf; path = Zone_Resource/deermap_x12.pdf; sourceTree = "<group>"; };
+		0DF931CD1A16F671007E39DC /* RegulationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegulationViewController.h; path = Controllers/Views/RegulationViewController.h; sourceTree = "<group>"; };
+		0DF931CE1A16F671007E39DC /* RegulationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegulationViewController.m; path = Controllers/Views/RegulationViewController.m; sourceTree = "<group>"; };
+		0DF931D11A1F081F007E39DC /* KMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KMLParser.h; path = Utilities/KMLParser.h; sourceTree = "<group>"; };
+		0DF931D21A1F081F007E39DC /* KMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KMLParser.m; path = Utilities/KMLParser.m; sourceTree = "<group>"; };
+		0DF931D41A1F0C10007E39DC /* DeerZone52008.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = DeerZone52008.kml; path = Utilities/DeerZone52008.kml; sourceTree = "<group>"; };
+		0DF931D61A1F0D72007E39DC /* Spectacles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Spectacles.h; path = Utilities/Spectacles.h; sourceTree = "<group>"; };
+		0DF931D71A1F0D72007E39DC /* Spectacles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Spectacles.m; path = Utilities/Spectacles.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +215,13 @@
 		0DD9140E1A16CB1D0071DE85 /* DGF_Spectacles */ = {
 			isa = PBXGroup;
 			children = (
+				0DF931D61A1F0D72007E39DC /* Spectacles.h */,
+				0DF931D71A1F0D72007E39DC /* Spectacles.m */,
+				0DF931D01A1F07D7007E39DC /* KML Parser */,
+				0DD9144B1A16D2D80071DE85 /* Zone Resources */,
+				0DD914381A16CECB0071DE85 /* TabBarControllers */,
 				0DD914131A16CB1D0071DE85 /* AppDelegate.h */,
 				0DD914141A16CB1D0071DE85 /* AppDelegate.m */,
-				0DD914161A16CB1D0071DE85 /* ViewController.h */,
-				0DD914171A16CB1D0071DE85 /* ViewController.m */,
 				0DD914191A16CB1D0071DE85 /* Main.storyboard */,
 				0DD9141C1A16CB1D0071DE85 /* Images.xcassets */,
 				0DD9141E1A16CB1D0071DE85 /* LaunchScreen.xib */,
@@ -117,6 +254,129 @@
 				0DD9142A1A16CB1D0071DE85 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0DD914381A16CECB0071DE85 /* TabBarControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0DD914C41A16D4850071DE85 /* Regulatios */,
+				0DD914C31A16D4790071DE85 /* Geo Map */,
+				0DD914BE1A16D40D0071DE85 /* DeerZones */,
+			);
+			name = TabBarControllers;
+			sourceTree = "<group>";
+		};
+		0DD9144B1A16D2D80071DE85 /* Zone Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0DF9315D1A16ED4E007E39DC /* deermap_a_north.pdf */,
+				0DF9315E1A16ED4E007E39DC /* deermap_a_south.pdf */,
+				0DF9315F1A16ED4E007E39DC /* deermap_a0.pdf */,
+				0DF931601A16ED4E007E39DC /* deermap_a1.pdf */,
+				0DF931611A16ED4E007E39DC /* deermap_a2.pdf */,
+				0DF931621A16ED4E007E39DC /* deermap_a26.pdf */,
+				0DF931631A16ED4E007E39DC /* deermap_a27.pdf */,
+				0DF931641A16ED4E007E39DC /* deermap_a31.pdf */,
+				0DF931651A16ED4E007E39DC /* deermap_a32.pdf */,
+				0DF931661A16ED4E007E39DC /* deermap_a33.pdf */,
+				0DF931671A16ED4E007E39DC /* deermap_arch3_300.pdf */,
+				0DF931681A16ED4E007E39DC /* deermap_arch4_300.pdf */,
+				0DF931691A16ED4E007E39DC /* deermap_arch5_300.pdf */,
+				0DF9316A1A16ED4E007E39DC /* deermap_arch6_300.pdf */,
+				0DF9316B1A16ED4E007E39DC /* deermap_arch7_300.pdf */,
+				0DF9316C1A16ED4E007E39DC /* deermap_arch8_300.pdf */,
+				0DF9316D1A16ED4E007E39DC /* deermap_arch9_300.pdf */,
+				0DF9316E1A16ED4E007E39DC /* deermap_arch11_300.pdf */,
+				0DF9316F1A16ED4E007E39DC /* deermap_arch12_300.pdf */,
+				0DF931701A16ED4E007E39DC /* deermap_arch13_300.pdf */,
+				0DF931711A16ED4E007E39DC /* deermap_arch16_300.pdf */,
+				0DF931721A16ED4E007E39DC /* deermap_arch17_300.pdf */,
+				0DF931731A16ED4E007E39DC /* deermap_arch18_300.pdf */,
+				0DF931741A16ED4E007E39DC /* deermap_arch19_300.pdf */,
+				0DF931751A16ED4E007E39DC /* deermap_arch20_300.pdf */,
+				0DF931761A16ED4E007E39DC /* deermap_arch21_300.pdf */,
+				0DF931771A16ED4E007E39DC /* deermap_arch22_300.pdf */,
+				0DF931781A16ED4E007E39DC /* deermap_arch24_300.pdf */,
+				0DF931791A16ED4E007E39DC /* deermap_arch30_300.pdf */,
+				0DF9317A1A16ED4E007E39DC /* deermap_b1.pdf */,
+				0DF9317B1A16ED4E007E39DC /* deermap_b2.pdf */,
+				0DF9317C1A16ED4E007E39DC /* deermap_b3.pdf */,
+				0DF9317D1A16ED4E007E39DC /* deermap_b4.pdf */,
+				0DF9317E1A16ED4E007E39DC /* deermap_b5.pdf */,
+				0DF9317F1A16ED4E007E39DC /* deermap_b6.pdf */,
+				0DF931801A16ED4E007E39DC /* deermap_c1.pdf */,
+				0DF931811A16ED4E007E39DC /* deermap_c2.pdf */,
+				0DF931821A16ED4E007E39DC /* deermap_c3.pdf */,
+				0DF931831A16ED4E007E39DC /* deermap_c4.pdf */,
+				0DF931841A16ED4E007E39DC /* deermap_x1.pdf */,
+				0DF931851A16ED4E007E39DC /* deermap_x2.pdf */,
+				0DF931861A16ED4E007E39DC /* deermap_x3a.pdf */,
+				0DF931871A16ED4E007E39DC /* deermap_x3b.pdf */,
+				0DF931881A16ED4E007E39DC /* deermap_x4.pdf */,
+				0DF931891A16ED4E007E39DC /* deermap_x5a.pdf */,
+				0DF9318A1A16ED4E007E39DC /* deermap_x5b.pdf */,
+				0DF9318B1A16ED4E007E39DC /* deermap_x6a.pdf */,
+				0DF9318C1A16ED4E007E39DC /* deermap_x6b.pdf */,
+				0DF9318D1A16ED4E007E39DC /* deermap_x7a.pdf */,
+				0DF9318E1A16ED4E007E39DC /* deermap_x7b.pdf */,
+				0DF9318F1A16ED4E007E39DC /* deermap_x8.pdf */,
+				0DF931901A16ED4E007E39DC /* deermap_x9a.pdf */,
+				0DF931911A16ED4E007E39DC /* deermap_x9b.pdf */,
+				0DF931921A16ED4E007E39DC /* deermap_x9c.pdf */,
+				0DF931931A16ED4E007E39DC /* deermap_x10.pdf */,
+				0DF931941A16ED4E007E39DC /* deermap_x12.pdf */,
+				0DD914BC1A16D3A50071DE85 /* DeerZoneList.plist */,
+			);
+			name = "Zone Resources";
+			sourceTree = "<group>";
+		};
+		0DD914BE1A16D40D0071DE85 /* DeerZones */ = {
+			isa = PBXGroup;
+			children = (
+				0DD914451A16D1C70071DE85 /* ZonesTVController.h */,
+				0DD914461A16D1C70071DE85 /* ZonesTVController.m */,
+				0DD914C21A16D4540071DE85 /* View */,
+			);
+			name = DeerZones;
+			sourceTree = "<group>";
+		};
+		0DD914C21A16D4540071DE85 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0DD914BF1A16D44A0071DE85 /* ZoneMapViewController.h */,
+				0DD914C01A16D44A0071DE85 /* ZoneMapViewController.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		0DD914C31A16D4790071DE85 /* Geo Map */ = {
+			isa = PBXGroup;
+			children = (
+				0DD914481A16D2000071DE85 /* LocationViewController.h */,
+				0DD914491A16D2000071DE85 /* LocationViewController.m */,
+			);
+			name = "Geo Map";
+			sourceTree = "<group>";
+		};
+		0DD914C41A16D4850071DE85 /* Regulatios */ = {
+			isa = PBXGroup;
+			children = (
+				0DD914421A16D1AB0071DE85 /* RegulationsTVController.h */,
+				0DD914431A16D1AB0071DE85 /* RegulationsTVController.m */,
+				0DF931CD1A16F671007E39DC /* RegulationViewController.h */,
+				0DF931CE1A16F671007E39DC /* RegulationViewController.m */,
+			);
+			name = Regulatios;
+			sourceTree = "<group>";
+		};
+		0DF931D01A1F07D7007E39DC /* KML Parser */ = {
+			isa = PBXGroup;
+			children = (
+				0DF931D41A1F0C10007E39DC /* DeerZone52008.kml */,
+				0DF931D11A1F081F007E39DC /* KMLParser.h */,
+				0DF931D21A1F081F007E39DC /* KMLParser.m */,
+			);
+			name = "KML Parser";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +459,67 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DF931A51A16ED4E007E39DC /* deermap_arch9_300.pdf in Resources */,
+				0DF9319F1A16ED4E007E39DC /* deermap_arch3_300.pdf in Resources */,
+				0DF931B31A16ED4E007E39DC /* deermap_b2.pdf in Resources */,
+				0DF931C21A16ED4E007E39DC /* deermap_x5b.pdf in Resources */,
 				0DD9141B1A16CB1D0071DE85 /* Main.storyboard in Resources */,
+				0DF931BC1A16ED4E007E39DC /* deermap_x1.pdf in Resources */,
+				0DF931A41A16ED4E007E39DC /* deermap_arch8_300.pdf in Resources */,
+				0DF9319D1A16ED4E007E39DC /* deermap_a32.pdf in Resources */,
+				0DF931CB1A16ED4E007E39DC /* deermap_x10.pdf in Resources */,
 				0DD914201A16CB1D0071DE85 /* LaunchScreen.xib in Resources */,
+				0DF931B81A16ED4E007E39DC /* deermap_c1.pdf in Resources */,
+				0DF931AE1A16ED4E007E39DC /* deermap_arch21_300.pdf in Resources */,
+				0DF931B71A16ED4E007E39DC /* deermap_b6.pdf in Resources */,
+				0DF931B41A16ED4E007E39DC /* deermap_b3.pdf in Resources */,
+				0DF931AB1A16ED4E007E39DC /* deermap_arch18_300.pdf in Resources */,
+				0DF931971A16ED4E007E39DC /* deermap_a0.pdf in Resources */,
+				0DF931D51A1F0C10007E39DC /* DeerZone52008.kml in Resources */,
 				0DD9141D1A16CB1D0071DE85 /* Images.xcassets in Resources */,
+				0DF931C41A16ED4E007E39DC /* deermap_x6b.pdf in Resources */,
+				0DD914BD1A16D3A50071DE85 /* DeerZoneList.plist in Resources */,
+				0DF931B91A16ED4E007E39DC /* deermap_c2.pdf in Resources */,
+				0DF9319C1A16ED4E007E39DC /* deermap_a31.pdf in Resources */,
+				0DF931991A16ED4E007E39DC /* deermap_a2.pdf in Resources */,
+				0DF931A61A16ED4E007E39DC /* deermap_arch11_300.pdf in Resources */,
+				0DF931AC1A16ED4E007E39DC /* deermap_arch19_300.pdf in Resources */,
+				0DF931A71A16ED4E007E39DC /* deermap_arch12_300.pdf in Resources */,
+				0DF931CA1A16ED4E007E39DC /* deermap_x9c.pdf in Resources */,
+				0DF931BE1A16ED4E007E39DC /* deermap_x3a.pdf in Resources */,
+				0DF931A11A16ED4E007E39DC /* deermap_arch5_300.pdf in Resources */,
+				0DF931B01A16ED4E007E39DC /* deermap_arch24_300.pdf in Resources */,
+				0DF931B61A16ED4E007E39DC /* deermap_b5.pdf in Resources */,
+				0DF931981A16ED4E007E39DC /* deermap_a1.pdf in Resources */,
+				0DF931A81A16ED4E007E39DC /* deermap_arch13_300.pdf in Resources */,
+				0DF931A91A16ED4E007E39DC /* deermap_arch16_300.pdf in Resources */,
+				0DF931C51A16ED4E007E39DC /* deermap_x7a.pdf in Resources */,
+				0DF931BA1A16ED4E007E39DC /* deermap_c3.pdf in Resources */,
+				0DF931B51A16ED4E007E39DC /* deermap_b4.pdf in Resources */,
+				0DF931AA1A16ED4E007E39DC /* deermap_arch17_300.pdf in Resources */,
+				0DF931C61A16ED4E007E39DC /* deermap_x7b.pdf in Resources */,
+				0DF931BB1A16ED4E007E39DC /* deermap_c4.pdf in Resources */,
+				0DF9319A1A16ED4E007E39DC /* deermap_a26.pdf in Resources */,
+				0DF931C81A16ED4E007E39DC /* deermap_x9a.pdf in Resources */,
+				0DF931C31A16ED4E007E39DC /* deermap_x6a.pdf in Resources */,
+				0DF931AD1A16ED4E007E39DC /* deermap_arch20_300.pdf in Resources */,
+				0DF931B21A16ED4E007E39DC /* deermap_b1.pdf in Resources */,
+				0DF931BF1A16ED4E007E39DC /* deermap_x3b.pdf in Resources */,
+				0DF931C71A16ED4E007E39DC /* deermap_x8.pdf in Resources */,
+				0DF9319B1A16ED4E007E39DC /* deermap_a27.pdf in Resources */,
+				0DF931A31A16ED4E007E39DC /* deermap_arch7_300.pdf in Resources */,
+				0DF931BD1A16ED4E007E39DC /* deermap_x2.pdf in Resources */,
+				0DF931951A16ED4E007E39DC /* deermap_a_north.pdf in Resources */,
+				0DF931961A16ED4E007E39DC /* deermap_a_south.pdf in Resources */,
+				0DF931C11A16ED4E007E39DC /* deermap_x5a.pdf in Resources */,
+				0DF931A01A16ED4E007E39DC /* deermap_arch4_300.pdf in Resources */,
+				0DF931AF1A16ED4E007E39DC /* deermap_arch22_300.pdf in Resources */,
+				0DF931A21A16ED4E007E39DC /* deermap_arch6_300.pdf in Resources */,
+				0DF931C91A16ED4E007E39DC /* deermap_x9b.pdf in Resources */,
+				0DF9319E1A16ED4E007E39DC /* deermap_a33.pdf in Resources */,
+				0DF931B11A16ED4E007E39DC /* deermap_arch30_300.pdf in Resources */,
+				0DF931C01A16ED4E007E39DC /* deermap_x4.pdf in Resources */,
+				0DF931CC1A16ED4E007E39DC /* deermap_x12.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +537,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DD914181A16CB1D0071DE85 /* ViewController.m in Sources */,
+				0DD914441A16D1AB0071DE85 /* RegulationsTVController.m in Sources */,
+				0DF931CF1A16F671007E39DC /* RegulationViewController.m in Sources */,
+				0DF931D81A1F0D72007E39DC /* Spectacles.m in Sources */,
 				0DD914151A16CB1D0071DE85 /* AppDelegate.m in Sources */,
 				0DD914121A16CB1D0071DE85 /* main.m in Sources */,
+				0DD914471A16D1C70071DE85 /* ZonesTVController.m in Sources */,
+				0DD9144A1A16D2000071DE85 /* LocationViewController.m in Sources */,
+				0DD914C11A16D44A0071DE85 /* ZoneMapViewController.m in Sources */,
+				0DF931D31A1F081F007E39DC /* KMLParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +668,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DGF_Spectacles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -354,6 +679,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DGF_Spectacles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -412,6 +738,7 @@
 				0DD914311A16CB1D0071DE85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0DD914321A16CB1D0071DE85 /* Build configuration list for PBXNativeTarget "DGF_SpectaclesTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +747,7 @@
 				0DD914341A16CB1D0071DE85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

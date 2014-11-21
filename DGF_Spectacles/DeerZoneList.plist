@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>A-Zone</key>
+	<dict>
+		<key>A-North Zone</key>
+		<string>deermap_a_north</string>
+		<key>A-South Zone</key>
+		<string>deermap_a_south</string>
+	</dict>
+	<key>B-Zone</key>
+	<dict>
+		<key>B-1 Zone</key>
+		<string>deermap_b1</string>
+		<key>B-2 Zone</key>
+		<string>deermap_b2</string>
+		<key>B-3 Zone</key>
+		<string>deermap_b3</string>
+		<key>B-4 Zone</key>
+		<string>deermap_b4</string>
+		<key>B-5 Zone</key>
+		<string>deermap_b5</string>
+		<key>B-6 Zone</key>
+		<string>deermap_b6</string>
+	</dict>
+	<key>C-Zone</key>
+	<dict>
+		<key>C-1 Zone</key>
+		<string>deermap_c1</string>
+		<key>C-2 Zone</key>
+		<string>deermap_c2</string>
+		<key>C-3 Zone</key>
+		<string>deermap_c3</string>
+		<key>C-4 Zone</key>
+		<string>deermap_c4</string>
+	</dict>
+	<key>X-Zone</key>
+	<dict>
+		<key>X-1 Zone</key>
+		<string>deermap_x1</string>
+		<key>X-2 Zone</key>
+		<string>deermap_x2</string>
+		<key>X-3a Zone</key>
+		<string>deermap_x3a</string>
+		<key>X-3b Zone</key>
+		<string>deermap_x3b</string>
+		<key>X-3c Zone</key>
+		<string>deermap_x3c</string>
+		<key>X-4 Zone</key>
+		<string>deermap_x4</string>
+		<key>X-5a Zone</key>
+		<string>deermap_x5a</string>
+		<key>X-5b Zone</key>
+		<string>deermap_x5b</string>
+		<key>X-6a Zone</key>
+		<string>deermap_x6a</string>
+		<key>X-6b Zone</key>
+		<string>deermap_x6b</string>
+		<key>X-7a Zone</key>
+		<string>deermap_x7a</string>
+		<key>X-7b Zone</key>
+		<string>deermap_x7b</string>
+		<key>X-8 Zone</key>
+		<string>deermap_x8</string>
+		<key>X-9a Zone</key>
+		<string>deermap_x9a</string>
+		<key>X-9b Zone</key>
+		<string>deermap_x9b</string>
+		<key>X-9c Zone</key>
+		<string>deermap_x9c</string>
+		<key>X-10 Zone</key>
+		<string>deermap_x10</string>
+		<key>X-12 Zone</key>
+		<string>deermap_x12</string>
+	</dict>
+</dict>
+</plist>
